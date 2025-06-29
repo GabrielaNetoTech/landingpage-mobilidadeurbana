@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OuriDriver - Mobilidade Urbana Inteligente</title>
+    <meta name="description" content="A revolução da mobilidade urbana chegou. Conectamos motoristas e passageiros de forma inteligente e segura.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="black.png" alt="OuriDriver" class="logo">
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#services" class="nav-link">Serviços</a>
+                <a href="#stats" class="nav-link">Números</a>
+                <a href="#download" class="nav-link">Apps</a>
+            </div>
+            <div class="nav-cta">
+                <a href="#download" class="btn btn-primary">Baixar App</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="grid-pattern"></div>
+            <div class="glow-orb glow-orb-1"></div>
+            <div class="glow-orb glow-orb-2"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                     <span class="badge-icon">
+                  <i class="ph ph-rocket-launch"></i>
+                </span>
+                    <span>REVOLUÇÃO DA MOBILIDADE URBANA NO SERTÃO</span>
+                </div>
+                <h1 class="hero-title">
+                    A melhor plataforma de
+                    <span class="highlight-text">mobilidade urbana</span>
+                    para o seu futuro.
+                </h1>
+                <p class="hero-subtitle">
+                    Conectamos motoristas e passageiros através de tecnologia inteligente, 
+                    criando um ecossistema seguro e eficiente para transformar o transporte urbano.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-mini">
+                        <div class="stat-avatars">
+                              <div class="avatar"><i class="ph ph-user"></i></div>
+                        <div class="avatar"><i class="ph ph-users"></i></div>
+                        <div class="avatar"><i class="ph ph-car"></i></div>
+                        <div class="avatar"><i class="ph ph-motorcycle"></i></div>
+                        </div>
+                        <div class="stat-text">
+                            <span class="stat-number" data-target="3450">0</span>
+                            <span class="stat-label">Usuários Ativos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#download" class="btn btn-primary-glow">
+                        <span>Começar Agora</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#services" class="btn btn-secondary-outline">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup phone-driver">
+                    <div class="phone-screen">
+                        <div class="app-header">
+                            <div class="status-bar">
+                                <span>9:41 <i class="ph ph-steering-wheel"></i></span>
+                                <span></span>
+                                <div class="signal-icons">
+                                    <span><i class="ph ph-wifi-high"></i></span>
+                                    <span><i class="ph ph-cell-signal-high"></i></span>
+                                    <span><i class="ph ph-battery-vertical-full"></i></span>
+                                </div>
+                            </div>
+                            <div class="app-title">
+                                <img src="black.png" alt=""></div>
+                        </div>
+                        <div class="app-content">
+                            <div class="driver-stats">
+                                <div class="stat-card">
+                                    <span class="stat-value">R$ 247,50</span>
+                                    <span class="stat-desc">Hoje</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-value">12</span>
+                                    <span class="stat-desc">Corridas</span>
+                                </div>
+                            </div>
+                            <div class="map-area">
+                                <div class="map-placeholder">
+                                    <div class="location-pin">📍</div>
+                                </div>
+                            </div>
+                            <div class="action-button">
+                                <span>CONECTAR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="phone-mockup phone-passenger">
+                    <div class="phone-screen">
+                        <div class="app-header-passageiro">
+                            <div class="status-bar">
+                                <span style="color: rgba(24, 24, 24, 0.76);">9:41</span>
+                                <div class="signal-icons">
+                                    <span style="color: rgba(24, 24, 24, 0.76);"><i class="ph ph-wifi-high"></i></span>
+                                    <span style="color: rgba(24, 24, 24, 0.76);"><i class="ph ph-cell-signal-high"></i></span>
+                                    <span style="color: rgba(24, 24, 24, 0.76);"><i class="ph ph-battery-vertical-full"></i></span>
+                                </div>
+                            </div>
+                            <div class="app-title"><img src="branco.png" alt=""></div>
+                        </div>
+                        <div class="app-content-passageiro">
+                                <div class="location-input">
+                                    <div class="input-field">
+                                        <span class="location-icon" style="color: orange;"><i class="ph ph-magnifying-glass"></i></span>
+                                        <span>Para onde vamos?</span>
+                                    </div>
+                                </div>
+                            <div class="ride-options">
+                                <div class="ride-type active">
+                                    <span class="ride-icon"><i class="ph ph-car"></i></span>
+                                    <span class="ride-name">DriveX</span>
+                                    <span class="ride-price">R$ 14,99</span>
+                                </div>
+                                <div class="ride-type active">
+                                    <span class="ride-icon"><i class="ph ph-car"></i></span>
+                                    <span class="ride-name">Supermercado</span>
+                                    <span class="ride-price">R$ 16,99</span>
+                                </div>
+                                 <div class="ride-type active">
+                                    <span class="ride-icon"><i class="ph ph-motorcycle"></i></span>
+                                    <span class="ride-name">Driver Moto</span>
+                                    <span class="ride-price">R$ 5,00</span>
+                                </div>
+                            </div>
+                            <div class="action-button">
+                                <span>SOLICITAR CORRIDA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="orbit-ring orbit-1"></div>
+                <div class="orbit-ring orbit-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats">
+        <div class="stats-bg-3d"></div>
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-card-modern">
+                    <div class="stat-icon"><i class="ph ph-city"></i></div>
+                    <div class="stat-content">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Cidades</div>
+                    </div>
+                    <div class="stat-glow"></div>
+                </div>
+                <div class="stat-card-modern">
+                    <div class="stat-icon"><i class="ph ph-car-profile"></i></div>
+                    <div class="stat-content">
+                        <div class="stat-number" data-target="1240">0</div>
+                        <div class="stat-label">Corridas Realizadas</div>
+                    </div>
+                    <div class="stat-glow"></div>
+                </div>
+                <div class="stat-card-modern">
+                    <div class="stat-icon"><i class="ph ph-users-three"></i></div>
+                    <div class="stat-content">
+                        <div class="stat-number" data-target="800">0</div>
+                        <div class="stat-label">Usuários Ativos</div>
+                    </div>
+                    <div class="stat-glow"></div>
+                </div>
+                <div class="stat-card-modern">
+                    <div class="stat-icon"><i class="ph ph-star"></i></div>
+                    <div class="stat-content">
+                        <div class="stat-number" data-target="98">0</div>
+                        <div class="stat-label">% Satisfação</div>
+                    </div>
+                </div>
+            </div>
+<!-- MARQUEE DE CIDADES -->
+        <div class="cities-marquee-container">
+            <div class="cities-marquee">
+                <span>Ouricuri</span>
+                <span>•</span>
+                <span>Salgueiro</span>
+                <span>•</span>
+                <span>Araripina</span>
+                <span>•</span>
+                <span>Petrolina</span>
+                <span>•</span>
+                <span>Juazeiro-BA</span>
+                <span>•</span>
+                <span>Ouricuri</span>
+                <span>•</span>
+                <span>Salgueiro</span>
+                <span>•</span>
+                <span>Araripina</span>
+                <span>•</span>
+                <span>Petrolina</span>
+                <span>•</span>
+                <span>Juazeiro-BA</span>
+            </div>
+        </div>
+        </div>
+    </section>
+
+<section id="services" class="services">
+  <div class="services-bg-map"></div>
+  <div class="services-container">
+    <div class="section-header">
+      <div class="section-badge">
+        <span>NOSSAS SOLUÇÕES</span>
+      </div>
+      <h2 class="section-title">
+        Seu parceiro confiável de
+        <span class="highlight-text">mobilidade urbana</span>
+      </h2>
+      <p class="section-subtitle">
+        Desenvolvemos tecnologia especializada para conectar motoristas e passageiros 
+        em um ecossistema inteligente e seguro.
+      </p>
+    </div>
+    <div class="services-grid-center">
+      <div class="service-card-modern driver-card">
+        <div class="card-number">01.</div>
+        <div class="service-header">
+          <div class="service-icon orange"><i class="ph ph-car-profile"></i></div>
+          <h3 class="service-title">Para Motoristas</h3>
+          <p class="service-subtitle">Maximize seus ganhos</p>
+        </div>
+        <div class="service-content">
+          <p class="service-description">
+            Tecnologia inteligente de roteamento e demanda para otimizar seus ganhos 
+            e proporcionar a melhor experiência de trabalho.
+          </p>
+          <ul class="service-features">
+            <li>
+              <span class="feature-icon orange"><i class="ph ph-circuitry"></i></span>
+              <span>Algoritmo inteligente de corridas</span>
+            </li>
+            <li>
+              <span class="feature-icon orange"><i class="ph ph-credit-card"></i></span>
+              <span>Pagamentos seguros e rápidos</span>
+            </li>
+            <li>
+              <span class="feature-icon orange"><i class="ph ph-headset"></i></span>
+              <span>Suporte 24/7</span>
+            </li>
+            <li>
+              <span class="feature-icon orange"><i class="ph ph-hand-coins"></i></span>
+              <span>Baixas taxas de comissão</span>
+            </li>
+          </ul>
+          <div class="service-cta">
+            <a href="#" class="btn btn-driver-glow">
+              <span>Baixar App Motorista</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7,10 12,15 17,10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="card-glow"></div>
+      </div>
+      <div class="service-card-modern passenger-card">
+        <div class="card-number">02.</div>
+        <div class="service-header">
+          <div class="service-icon orange"><i class="ph ph-users"></i></div>
+          <h3 class="service-title">Para Passageiros</h3>
+          <p class="service-subtitle">Viaje com segurança</p>
+        </div>
+        <div class="service-content">
+          <p class="service-description">
+            Experiência de transporte simplificada com conforto, segurança 
+            e preços justos para sua mobilidade urbana.
+          </p>
+          <ul class="service-features">
+            <li>
+              <span class="feature-icon orange"><i class="ph ph-clock-clockwise"></i></span>
+              <span>Corridas rápidas e seguras</span>
+            </li>
+            <li>
+              <span class="feature-icon orange"><i class="ph ph-money-wavy"></i></span>
+              <span>Preços transparentes</span>
+            </li>
+            <li>
+              <span class="feature-icon orange"><i class="ph ph-map-pin-area"></i></span>
+              <span>Rastreamento em tempo real</span>
+            </li>
+            <li>
+              <span class="feature-icon orange"><i class="ph ph-star"></i></span>
+              <span>Avaliação de motoristas</span>
+            </li>
+          </ul>
+          <div class="service-cta">
+            <a href="#" class="btn btn-passenger-glow">
+              <span>Baixar App Passageiro</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7,10 12,15 17,10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="card-glow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="download-bg">
+            <div class="download-glow"></div>
+        </div>
+        <div class="download-container">
+            <div class="download-content">
+                <div class="section-badge">
+                    <span>COMECE AGORA</span>
+                </div>
+                <h2 class="download-title">
+                    Faça parte da revolução da
+                    <span class="highlight-text">mobilidade urbana</span>
+                </h2>
+                <p class="download-subtitle">
+                    Baixe o app e transforme sua experiência de transporte urbano. 
+                    Junte-se a milhares de usuários que já fazem parte do futuro.
+                </p>
+                
+                <div class="download-apps">
+                    <div class="app-section">
+                        <h3 class="app-section-title">
+                            <span class="app-icon"><i class="ph ph-car-profile"></i></span>
+                            Motoristas
+                        </h3>
+                        <div class="app-buttons">
+                            <a href="#" class="app-button-modern">
+                                <div class="app-store-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                                    </svg>
+                                </div>
+                                <div class="app-store-text">
+                                    <span class="app-store-label">Disponível no</span>
+                                    <span class="app-store-name">Google Play</span>
+                                </div>
+                            </a>
+                            <a href="#" class="app-button-modern">
+                                <div class="app-store-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z"/>
+                                    </svg>
+                                </div>
+                                <div class="app-store-text">
+                                    <span class="app-store-label">Baixar na</span>
+                                    <span class="app-store-name">App Store</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="app-section">
+                        <h3 class="app-section-title">
+                            <span class="app-icon"><i class="ph ph-users-three"></i></span>
+                            Passageiros
+                        </h3>
+                        <div class="app-buttons">
+                            <a href="#" class="app-button-modern">
+                                <div class="app-store-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                                    </svg>
+                                </div>
+                                <div class="app-store-text">
+                                    <span class="app-store-label">Disponível no</span>
+                                    <span class="app-store-name">Google Play</span>
+                                </div>
+                            </a>
+                            <a href="#" class="app-button-modern">
+                                <div class="app-store-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z"/>
+                                    </svg>
+                                </div>
+                                <div class="app-store-text">
+                                    <span class="app-store-label">Baixar na</span>
+                                    <span class="app-store-name">App Store</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="black.png" alt="OuriDriver" class="footer-logo">
+                    <p>Revolucionando a mobilidade urbana com tecnologia e inovação para um futuro mais conectado.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="ph ph-instagram-logo"></i></a>
+                        <a href="#" class="social-link"><i class="ph ph-whatsapp-logo"></i></a>
+                        <a href="#" class="social-link"><i class="ph ph-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Empresa</h4>
+                        <a href="#">Sobre Nós</a>
+                        <a href="#">Carreiras</a>
+                        <a href="#">Imprensa</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Suporte</h4>
+                        <a href="#">Central de Ajuda</a>
+                        <a href="#">Contato</a>
+                        <a href="#">Segurança</a>
+                        <a href="#">Status</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#">Termos de Uso</a>
+                        <a href="#">Privacidade</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">Licenças</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OuriDriver. Todos os direitos reservados.</p>
+                <div class="footer-badge">
+                    <span>Feito por Gabriela Neto (@gabrielasneto)</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
