@@ -1872,3 +1872,78 @@ body::before {
   background: var(--primary-orange);
   color: var(--text-primary);
 }
+@media (max-width: 600px) {
+  .stats-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    max-width: 99vw;
+  }
+  .stat-card-modern {
+    width: 100% !important;
+    max-width: 140px !important;
+    min-width: 0 !important;
+    height: 140px !important;
+    padding: 0.7rem 0.5rem !important;
+    border-radius: 18px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto;
+    font-size: 0.92rem;
+  }
+  .stat-content .stat-number {
+    font-size: 1.18rem !important;
+  }
+  .stat-content .stat-label {
+    font-size: 0.85rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .download-apps {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    max-width: 99vw;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .app-section {
+    max-width: 92vw !important;
+    min-width: 0 !important;
+    padding: 0.55rem 0.15rem !important;
+    font-size: 0.85rem !important;
+    border-radius: 10px !important;
+    margin: 0 auto;
+    box-shadow: none !important;
+  }
+  .app-section-title {
+    font-size: 0.95rem !important;
+    margin-bottom: 0.7rem !important;
+    gap: 0.4rem !important;
+  }
+  .app-icon {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 1.1rem !important;
+  }
+  .app-buttons {
+    gap: 0.25rem !important;
+  }
+  .app-button-modern {
+    padding: 0.5rem 0.7rem !important;
+    font-size: 0.85rem !important;
+  }
+  .app-store-icon {
+    width: 22px !important;
+    height: 22px !important;
+    font-size: 1rem !important;
+  }
+}
